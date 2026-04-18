@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	# --- Personajes URSS ---
+	spriteType = {
+		name = "GFX_portrait_COM_brezhnev"
+		texturefile = "gfx/leaders/COM/portrait_COM_brezhnev.dds"
+	}
+}

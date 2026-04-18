@@ -1,0 +1,16 @@
+characters = {
+
+	COM_brezhnev = { 
+		name = "Leonid Ilyich Brezhnev"
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_COM_brezhnev"
+			}
+		}
+		country_leader = {
+			ideology = marxism_leninism
+			traits = { resistance_fighter }
+			expire = "1982.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,54 @@
+﻿capital = 653
+set_oob = COM_1960
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	support_weapons = 1
+	gw_artillery = 1
+	gwtank_chassis = 1
+	early_destroyer = 1
+	basic_ship_hull_light = 1
+
+}
+
+recruit_character = COM_brezhnev
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = revisionist_communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = nova_emergency_state
+
+set_popularities = {
+	democratic = 4
+	fascism = 8
+	communism = 2
+	revisionist_communism = 58
+	neutrality = 28
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = revisionist_communism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+add_ideas = nova_emergency_state
+
+	set_popularities = {
+		democratic = 4
+		fascism = 8
+		communism = 2
+		revisionist_communism = 58
+		neutrality = 28
+	}
+}

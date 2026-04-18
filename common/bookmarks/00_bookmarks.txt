@@ -1,0 +1,23 @@
+bookmarks = {
+    bookmark = {
+        name = "AFTHER_VIRUS_NAME"
+        desc = "AFTHER_VIRUS_DESC"
+        date = 1960.1.1.12        # ← Fecha de inicio: año.mes.día.hora
+        picture = "GFX_select_date_1936"
+        default_country = "COM"
+        default = yes
+
+		"COM"={
+			history = "COM_AFTHER_VIRUS_DESC"
+			ideology = communism
+			ideas = {
+				nova_emergency_state
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+    }
+}
